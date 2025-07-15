@@ -16,6 +16,10 @@
       font-size: 18px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      /* subtle paper texture background */
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMB/6W0R9sAAAAASUVORK5CYII=');
+      background-size: cover;
+      background-blend-mode: soft-light;
     }
 
     h1, h2, h3 {
@@ -26,6 +30,8 @@
       margin-bottom: 1rem;
     }
 
+    /* === STYLE REFINEMENTS FOR LEARN-DO-TEACH === */
+
     h1 {
       font-size: 2.5rem;
       font-weight: 400;
@@ -34,6 +40,8 @@
     h2 {
       font-size: 1.8rem;
       font-weight: 400;
+      margin-top: 3rem;     /* increased from 2rem */
+      margin-bottom: 1rem;
     }
 
     p {
@@ -46,7 +54,7 @@
     }
 
     li {
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.75rem;  /* previously 0.5rem */
     }
 
     main.ldt-container {
@@ -100,6 +108,7 @@
     }
 
     .begin-button:hover {
+      transform: scale(1.03);
       background-color: #3b3b73;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     }
