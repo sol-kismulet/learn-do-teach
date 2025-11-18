@@ -1,30 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Learn · Do · Teach</title>
-  <link rel="stylesheet" href="start/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>learn · do · teach</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: #fdfdfb;
+            color: #111;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 720px;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 400;
+            margin-bottom: 3rem;
+            letter-spacing: 0.05em;
+        }
+        p {
+            font-size: 1.5rem;
+            margin: 1.8rem auto;
+            max-width: 42rem;
+        }
+        .seed {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: rgba(0,0,0,0.02);
+            border-radius: 12px;
+        }
+        footer {
+            margin-top: 8rem;
+            font-size: 1rem;
+            color: #666;
+        }
+        @media (max-width: 640px) {
+            h1 { font-size: 2.2rem; }
+            p { font-size: 1.3rem; }
+            .seed { font-size: 1.8rem; }
+        }
+    </style>
 </head>
 <body>
-  <main class="ldt-container">
-    <section class="intro">
-      <h1>Free education, forever.</h1>
-
-      <p class="breath-line">All.</p>
-      <p class="breath-line">Humans.</p>
-      <p class="breath-line">Forever.</p>
-
-      <p>This is Learn · Do · Teach — a global initiative to make high-quality education freely available, supported by AI and led by human presence.</p>
-
-      <p>This is not a platform. It’s a practice.<br>
-      Not scale, but connection.<br>
-      Not performance, but presence.</p>
-
-      <p><strong>It has already begun.</strong></p>
-
-      <p><a class="begin-button" href="/start">Begin your cycle →</a></p>
-    </section>
-  </main>
+    <div class="container">
+        <h1>learn · do · teach</h1>
+        
+        <p>We are building civilization-scale intelligence.</p>
+        
+        <p>There is one question we must never stop asking:</p>
+        
+        <div class="seed">
+            Why would we build anything powerful<br>
+            without ensuring it helps people<br>
+            <strong>learn better, do better, and teach better</strong>?
+        </div>
+        
+        <p>If it doesn’t, we wait.<br>
+           If it does, everything changes.</p>
+        
+        <footer>
+            This is the seed.<br>
+            Plant it wherever you build or learn.<br>
+            learndoteach.org
+        </footer>
+    </div>
 </body>
 </html>
